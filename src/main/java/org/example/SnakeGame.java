@@ -67,24 +67,7 @@ public class SnakeGame extends JPanel implements ActionListener {
             int foodY=random.nextInt(GRID_SIZE);
             food = new Point(foodX, foodY);
     }
-//    private void  checkCollision(){
-//            Point head=snake.getHead();
-//
-//            if (head.equals(food)){
-//                snake.grow();
-//                createFood();
-//                score+=1;
-//            }
-//            else if (head.x<0||head.x>=GRID_SIZE||head.y<0||head.y>=GRID_SIZE) {
-//                inGame=false;
-//                timer.stop();
-//            }
-//
-//            else if (snake.getBody().subList(1, snake.getBody().size()).contains(head)){
-//                inGame=false;
-//                timer.stop();
-//            }
-//    }
+
 
 
     private void checkCollision() {
